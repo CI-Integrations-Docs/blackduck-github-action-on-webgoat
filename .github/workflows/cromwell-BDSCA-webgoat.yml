@@ -1,4 +1,5 @@
 name: CI-BlackDuck-Basic
+on:
   push:
     branches: [ main, master, develop, stage, release ]
   pull_request:
